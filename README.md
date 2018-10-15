@@ -24,33 +24,15 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Post a comment on the page with XSS. When admin views comment, XSS is run.
   - [ ] Affected source code:
     - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
-1. (Required) Vulnerability Name or ID
+1. Authenticated Stored XSS
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types:XSS
+    - Tested in version: 4.2.0
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: <img src="successful_exploit_3.gif" width="800">
+  - [ ] Steps to recreate: edit a page to contain xss
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
 
 ## Assets
 

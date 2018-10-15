@@ -15,15 +15,15 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Add a new attachment. Re-name the title of the attachment to text withXSS in it.
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/4372cdf45d0f49c74bbd4d60db7281de83e32648)
-1. (Required) Vulnerability Name or ID
+2. Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types:XSS
+    - Tested in version:4.2.0
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: <img src="successful_exploit_2.gif" width="800">
+  - [ ] Steps to recreate: Post a comment on the page with XSS. When admin views comment, XSS is run.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
